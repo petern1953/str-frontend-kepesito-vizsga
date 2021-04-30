@@ -85,34 +85,34 @@ Feladathoz egy segéd kép:
 
 https://docs.google.com/document/d/1Rij8PUAd2KESb5vS6avjs3LDKo-3QX8qkWvZCn7aZW0/edit
 
-1. Készíts Bootsrap segítségével egy űrlapot, amivel filmeket  lehet regisztrálni.
-2. Készíts egy "md" méretü container-t (bootsrap osztály) a html "section" eleméből.
+1. Készíts Bootsrap segítségével egy űrlapot, amivel filmeket  lehet regisztrálni. ok
+2. Készíts egy "md" méretü container-t (bootsrap osztály) a html "section" eleméből. ok
 Adj háttérszínt a konténernek: rgb(53, 53, 50). Kerekítsd le kicsit az éleit: 
-border-radius: 12px
+border-radius: 12px ok
 3. Helyezz el benne egy boostrap formot a következő beviteli mezőkkel:
 
 -  LABEL és INPUT mező (bootsrap osztály használat LABEL-re és INPUT-ra) 
 input mező típusa: "text" , id="title". A label for attribútuma mutasson az input mező id-ra. 
-Label mező belső szöveges tartalma: "Movie Title:"
+Label mező belső szöveges tartalma: "Movie Title:" ok
 
 - LABEL és INPUT mező (bootsrap osztály használat LABEL-re és INPUT-ra) 
 input mező típusa: "text", id="year". A label for attribútuma mutasson az id-ra.
-Label mező belső szöveges tartalma: "Release year:"
+Label mező belső szöveges tartalma: "Release year:" ok
 
 - LABEL és SELECT mező (bootsrap osztály használat LABEL-re és SELECT-re). 
 select mező id="category". A label for attribútuma mutasson az id-ra.
 Label mező belső szöveges tartalma: "Category:"  
 (alapértelmezetten megjelenő szöveg: 'Choose Category')
 Választható opciók és értékek a select mező esetében: 
-"Drama", "Action", "Fantasy" (érték megegyzik a megjelenéssel)
+"Drama", "Action", "Fantasy" (érték megegyzik a megjelenéssel) ok
 
 - Valamennyi LABEL mező szövege kapjon bootstrap 'warning' színkódot. 
-Az 2. és 3. input mező egymás mellett jelenjen meg.
+Az 2. és 3. input mező egymás mellett jelenjen meg. ok
 
 4. Helyezz el egy gombot a form végén. Bootsrap osztályt használj, 
 szín típus a BUTTON elemen: 'warning'. Felirata: 'Save'
 Ha a form 'invalid' (bármelyik mezője nem kap értéket), akkor a gomb 'disabled', 
-vagyis nem kattintható.
+vagyis nem kattintható. ok
 
 5. Helyezz egy egy 'small' elemet a gomb alá a következő  szöveges tartalommal: 
 'Fill all field to save!'

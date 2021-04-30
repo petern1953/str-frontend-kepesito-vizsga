@@ -1,26 +1,22 @@
 import { AfterContentChecked, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import {  FormGroup } from '@angular/forms';
 import { Movie } from '../model/movie';
+import { HttpService } from '../service/http.service';
 
 @Component({
   selector: 'app-movie',
   templateUrl: './movie.component.html',
-  styleUrls: ['./movie.component.css']
+  styleUrls: ['./movie.component.css'],
 })
 export class MovieComponent implements OnInit {
-
   @ViewChild('mForm', { static: true }) movieForm: FormGroup;
   movie: Movie = new Movie();
 
-  constructor() {
+  constructor(private mservice: HttpService) {}
 
-  }
-
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   saveMovie(): any {
-    return {};
+    console.log(this.movie);
   }
-
 }
