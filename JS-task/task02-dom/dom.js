@@ -1,4 +1,6 @@
-function changeOuterLinks() {}
+function changeOuterLinks() {
+    
+}
 
 
 export { changeOuterLinks };
